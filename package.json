@@ -1,0 +1,30 @@
+{
+  "name": "angular-gf-sticky-footer",
+  "version": "0.0.0",
+  "description": "Sticky footer directive",
+  "repository": "git@github.com:reebalazs/angular-gf-sticky-footer.git",
+  "keywords": [
+    "angular"
+  ],
+  "browserify": {
+
+  },
+  "dependencies": {
+    "jquery": "*",
+    "angular": "*"
+  },
+  "devDependencies": {
+    "browserify": "< 5",
+    "grunt": "*",
+    "load-grunt-tasks": "*",
+    "grunt-browserify": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-release": "*",
+    "grunt-responsive-images": "*",
+    "grunt-jscs": "*",
+    "jshint-stylish": "*"
+  }
+}
