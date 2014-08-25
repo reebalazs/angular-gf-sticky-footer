@@ -6,9 +6,7 @@
   "keywords": [
     "angular"
   ],
-  "browserify": {
-
-  },
+  "main": "src/angular-gf-sticky-footer.js",
   "dependencies": {
     "jquery": "*",
     "angular": "*"

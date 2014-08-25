@@ -1,11 +1,13 @@
-/* global require: true */
+/* global require: true, module: true */
 /* jshint globalstrict: true */
 'use strict';
 
 var angular = require('angular'),
     $ = require('jquery');
 
-angular.module('gabisite').directive('gfStickyFooter', ['$window', '$timeout', function($window, $timeout) {
+angular.module('gfStickyFooter', []);
+
+angular.module('gfStickyFooter').directive('gfStickyFooter', ['$window', '$timeout', function($window, $timeout) {
 
   var elStatic, timer;
 
@@ -49,3 +51,6 @@ angular.module('gabisite').directive('gfStickyFooter', ['$window', '$timeout', f
   };
 
 }]);
+
+module.exports = function() {
+};

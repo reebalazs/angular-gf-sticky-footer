@@ -38,11 +38,10 @@ module.exports = function(grunt) {
     uglify: {
       src: {
         files: {
-          'dist/angular-gf-sticky-footer.browser.js': 'dist/angular-gf-sticky-footer.min.js',
+          'dist/angular-gf-sticky-footer.min.js': 'dist/angular-gf-sticky-footer.js',
         },
         options: {
           sourceMap: true,
-          sourceMapIn: 'njcsite/static/dist/app.browser.js.map',
         },
       },
     },
@@ -61,7 +60,7 @@ module.exports = function(grunt) {
   //
 
   // install and process all resources
-  grunt.registerTask('install', ['browserify:src', 'uglify:src']);
+  grunt.registerTask('install', [/*'browserify:src', 'uglify:src'*/]);
 
   // process all JS (for running with proxy)
 
